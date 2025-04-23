@@ -29,10 +29,11 @@
       border-radius: 12px;
       margin: 1rem 0;
     }
-    .story {
+    .story, .details {
       background-color: #fff9f2;
-      padding: 1rem;
+      padding: 1rem 1.5rem;
       border-radius: 8px;
+      margin-bottom: 2rem;
     }
     footer {
       background-color: #c29d73;
@@ -41,34 +42,92 @@
       padding: 1rem;
       margin-top: 2rem;
     }
+    a {
+      color: #4a3f35;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .qr {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .qr img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .qr a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #c29d73;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .qr a:hover {
+      background-color: #b0885d;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Café La Corenita</h1>
-    <p>Desde El Peñol hasta Sincelejo, una historia que se tuesta en familia</p>
+    <p>Desde El Peñol hasta Sincelejo: un café con historia, alma y familia</p>
   </header>
+
   <div class="container">
-    <!-- Aquí estamos usando los nombres de imágenes correctamente -->
-    <img src="finca-corenita.jpeg" alt="Finca donde nace el café"/>
+    <img src="img/finca-corenita.jpeg" alt="Finca donde nace el café" />
+
     <div class="story">
       <h2>El secreto familiar</h2>
       <p>
-        Todo comenzó con un abrazo entre montañas. Una familia antioqueña y una familia costeña
-        se unieron no solo por amor, sino por una pasión compartida: el café.
+        Todo comenzó con un abrazo entre montañas y brisas del Caribe. Una familia de El Peñol y una de Sincelejo
+        se unieron no solo por amor, sino por una pasión heredada: el café.
       </p>
       <p>
-        La Corenita es más que una bebida: es un puente entre culturas, un ritual de cariño,
-        y una invitación a saborear lo artesanal.
+        Café La Corenita nace de esa unión. Es el sabor de la tierra, el trabajo de manos que creen en lo artesanal,
+        y la conexión entre dos mundos que encontraron armonía en cada grano tostado con cariño.
+      </p>
+      <p>
+        Lo que comenzó como un sueño familiar, hoy se comparte con orgullo en cada taza. Porque esto no es solo café.
+        Es una historia viva, que se tuesta, se huele y se saborea.
       </p>
     </div>
-    <img src="empaque-corenita.jpeg" alt="Empaque Café La Corenita" />
+
+    <img src="img/empaque-corenita.jpeg" alt="Empaque Café La Corenita" />
+
+    <div class="details">
+      <h2>¿Qué hace especial a La Corenita?</h2>
+      <ul>
+        <li>☕ Origen: El Peñol, Antioquia – finca libre de insecticidas</li>
+        <li>🔥 Tostión: Media, con aroma sobresaliente</li>
+        <li>🍫 Sabor: Suave, persistente, con notas a chocolate y panela</li>
+        <li>💛 Producción artesanal en pequeños lotes</li>
+        <li>📦 Presentaciones de 250g y 500g</li>
+      </ul>
+    </div>
+
+    <div class="story">
+      <h2>¡Queremos que hagas parte de esta historia!</h2>
+      <p>
+        ¿Estás de paso por Cartagena o tienes una tienda donde el café artesanal tiene espacio?
+        Escríbenos, hablemos de café... y de historias que merecen compartirse.
+      </p>
+      <p>📩 Correo: <a href="mailto:miguelalvarezferrer79@gmail.com">miguelalvarezferrer79@gmail.com</a></p>
+      <p>📞 WhatsApp: <a href="https://wa.me/573156667435" target="_blank">+57 315 666 7435</a></p>
+    </div>
+
+    <div class="qr">
+      <h2>¡Escanea y conéctate!</h2>
+      <img src="img/qr-corenita.png" alt="Código QR Café La Corenita" />
+      <p><a href="img/qr-corenita.png" download>Descargar QR</a></p>
+    </div>
   </div>
+
   <footer>
-    <p>Síguenos en Instagram: <a href="https://instagram.com/cafelacorenita" style="color: white;">@cafelacorenita</a></p>
+    <p>Gracias por ser parte del viaje de Café La Corenita ☕❤️</p>
   </footer>
 </body>
 </html>
-
-      
-     
